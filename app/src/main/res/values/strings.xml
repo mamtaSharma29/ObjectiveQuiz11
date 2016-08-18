@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ObjectiveQuiz</string>
+    <string name="question">"Is this a prime number?"</string>
+    <string name="trueText">True</string>
+    <string name="falseText">False</string>
+    <string name="nextText">Next</string>
+</resources>
