@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/material_deep_teal_200">
 
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,17 +20,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/falseText"/>
-    </LinearLayout>
 
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textViewer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="329dp"
+        android:layout_height="128dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:freezesText="true"
         android:text="@string/question"
-        android:layout_gravity="center_horizontal|top" />
+        android:layout_gravity="center"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/next_button"
@@ -40,4 +43,5 @@
         android:layout_gravity="center_horizontal|bottom"
         android:textAlignment="center"
         android:textColor="#7081f1" />
+
 </FrameLayout>
